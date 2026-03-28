@@ -18,7 +18,7 @@ def extract_text_from_docx(file_bytes: bytes) -> str:
     text = ""
 
     for paragraph in doc.paragraphs:
-        text += paragraph + "\n"
+        text += paragraph.text + "\n"
 
     return text
 
