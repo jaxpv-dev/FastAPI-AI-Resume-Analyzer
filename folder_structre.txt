@@ -1,0 +1,40 @@
+resume_analyzer/
+│
+├── app/
+│   ├── main.py
+│   ├── config.py
+│   │
+│   ├── api/
+│   │   └── v1/
+│   │       ├── routes/
+│   │       │   ├── auth.py
+│   │       │   ├── resumes.py
+│   │       │   └── analysis.py
+│   │       └── deps.py
+│   │
+│   ├── core/
+│   │   ├── security.py
+│   │   └── ai.py
+│   │
+│   ├── db/
+│   │   ├── session.py
+│   │   └── base.py
+│   │
+│   ├── models/
+│   │   ├── user.py
+│   │   ├── resume.py
+│   │   └── analysis.py
+│   │
+│   ├── schemas/
+│   │   ├── user.py
+│   │   ├── resume.py
+│   │   └── analysis.py
+│   │
+│   └── services/
+│       ├── resume_parser.py
+│       └── analysis_service.py
+│
+├── uploads/
+├── .env
+├── .gitignore
+└── requirements.txt
